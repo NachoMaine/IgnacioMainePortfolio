@@ -29,11 +29,6 @@ const Contact = () => {
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="text-primary hover:text-accent transition-colors duration-300 hover:underline cursor-pointer"
-                  onClick={(e) => {
-                    // Asegurar que se abra en nueva pestaña
-                    e.preventDefault();
-                    window.open('https://www.linkedin.com/in/ignacio-maine-54b830369/', '_blank', 'noopener,noreferrer');
-                  }}
                 >
                 linkedin.com/in/ignacio-maine-54b830369/
                 </a>
