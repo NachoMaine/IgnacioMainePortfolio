@@ -21,18 +21,19 @@ const Contact = () => {
                <h3 className="font-semibold text-foreground mb-2">{t('email')}</h3>
                <p className="text-primary">mainenacho@gmail.com</p>
              </div>
-             <div className="glass-card p-6 rounded-lg border-gradient shadow-card card-hover animate-scale-in" style={{ animationDelay: '0.2s' }}>
-               <div className="text-3xl mb-4 animate-float" style={{ animationDelay: '1s' }}>🔗</div>
+             <a 
+                href="https://www.linkedin.com/in/ignacio-maine-54b830369/" 
+                target="_blank" 
+                rel="noopener noreferrer"
+                className="glass-card p-6 rounded-lg border-gradient shadow-card card-hover animate-scale-in block hover:scale-105 transition-all duration-300 cursor-pointer"
+                style={{ animationDelay: '0.2s' }}
+             >
+               <div className="text-3xl mb-4">🔗</div>
                <h3 className="font-semibold text-foreground mb-2">{t('linkedin')}</h3>
-               <a 
-                  href="https://www.linkedin.com/in/ignacio-maine-54b830369/" 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:text-accent transition-colors duration-300 hover:underline cursor-pointer"
-                >
+               <p className="text-primary hover:text-accent transition-colors duration-300">
                 linkedin.com/in/ignacio-maine-54b830369/
-                </a>
-             </div>
+                </p>
+             </a>
              <div className="glass-card p-6 rounded-lg border-gradient shadow-card card-hover animate-scale-in" style={{ animationDelay: '0.4s' }}>
                <div className="text-3xl mb-4 animate-float" style={{ animationDelay: '2s' }}>📍</div>
                <h3 className="font-semibold text-foreground mb-2">{t('availability')}</h3>
