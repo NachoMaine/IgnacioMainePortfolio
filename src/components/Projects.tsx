@@ -63,7 +63,7 @@ const Projects = () => {
           </h2>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
             {projects.map((project) => (
-              <div key={project.id} className="bg-card rounded-lg overflow-hidden border border-border shadow-card hover:shadow-glow transition-all duration-300 group">
+              <div key={project.id} className="bg-card rounded-lg overflow-hidden border border-border shadow-card hover:shadow-glow transition-all duration-300 group flex flex-col h-full">
                 <div className="relative overflow-hidden">
                   <img 
                     src={project.image} 
@@ -72,9 +72,9 @@ const Projects = () => {
                   />
                   <div className="absolute inset-0 bg-primary/20 opacity-0 group-hover:opacity-100 transition-opacity duration-300" />
                 </div>
-                <div className="p-6">
+                <div className="p-6 flex flex-col flex-grow">
                   <h3 className="text-xl font-semibold mb-3 text-foreground">{project.title}</h3>
-                  <p className="text-muted-foreground mb-4 leading-relaxed">{
+                  <p className="text-muted-foreground mb-4 leading-relaxed flex-grow">{
                         project.id === 1 ?  t('skinwalkerText') :
                         project.id === 2 ?  t('fightingText')  :
                         project.id === 3 ?  t('furiousText')  :
@@ -89,7 +89,7 @@ const Projects = () => {
                       </span>
                     ))}
                   </div>
-                  <div className="flex gap-2">
+                  <div className="flex gap-2 mt-auto">
                     <Button variant="ghost" className="flex-1" asChild>
                       <a 
                         href={
