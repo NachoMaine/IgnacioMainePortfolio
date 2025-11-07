@@ -28,7 +28,7 @@ const Contact = () => {
                 className="glass-card p-6 rounded-lg border-gradient shadow-card card-hover animate-scale-in block hover:scale-105 transition-all duration-300 cursor-pointer"
                 style={{ animationDelay: '0.2s' }}
              >
-               <div className="text-3xl mb-4">🔗</div>
+               <div className="text-3xl mb-4 animate-float pointer-events-none" style={{ animationDelay: '1s' }}>🔗</div>
                <h3 className="font-semibold text-foreground mb-2">{t('linkedin')}</h3>
                <p className="text-primary hover:text-accent transition-colors duration-300">
                 linkedin.com/in/ignacio-maine-54b830369/
