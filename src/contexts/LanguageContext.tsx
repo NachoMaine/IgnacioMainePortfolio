@@ -54,14 +54,14 @@ const translations = {
             // Experience
     experienceTitle: 'Experiencia Profesional',
     sismoPosition: 'Technical Artist | Pixel Artist',
-    sismoDescription: 'Desarrollo integral como Technical Artist y Pixel Artist para el proyecto Skinwalker, colaborando en todas las etapas de producción artística y técnica.',
+    sismoDescription: 'Technical Artist y Pixel Artist contribuyendo al ciclo completo de desarrollo del proyecto Skinwalker, apoyando tanto la producción artística como la técnica.',
 
     task: 'Tareas/proyectos principales:',
-    sismo1: 'Creación de VFX, decoración de entornos e integración de assets 2D optimizando el rendimiento.',
-    sismo2: 'Desarrollo de herramientas personalizadas y shaders en Unity (URP/HDRP).',
-    sismo3: 'Colaboración con artistas y programadores para definir flujos de trabajo técnicos.',
-    sismo4: 'Producción de varios sprites: personajes, animaciones y assets de entorno.',
-    sismo5: 'Organización de tareas y gestión de proyectos con Jira y Slack.',
+    sismo1: 'Creación de VFX, decoración de entornos e integración de assets 2D, optimizando el rendimiento in‑game.',
+    sismo2: 'Desarrollo de herramientas personalizadas en C# y shaders con ShaderGraph.',
+    sismo3: 'Colaboración con artistas y programadores para definir y refinar flujos de trabajo técnicos.',
+    sismo4: 'Producción de una amplia variedad de sprites, incluyendo personajes, animaciones y assets de entorno.',
+    sismo5: 'Organización de tareas y coordinación de la producción usando Jira y Slack.',
 
     labCompany: 'Laboratorio Experiencia de Usuario - UNRaf Tec',
     labPosition: 'Junior Technical Artist | Unity/Unreal Developer',
@@ -157,14 +157,14 @@ const translations = {
         // Experience
     experienceTitle: 'Professional Experience',
     sismoPosition: 'Technical Artist | Pixel Artist',
-    sismoDescription: 'Comprehensive development as Technical Artist and Pixel Artist for the Skinwalker project, collaborating across all artistic and technical production stages.',
+    sismoDescription: 'Technical Artist and Pixel Artist contributing to the full development cycle of the Skinwalker project, supporting both artistic and technical production.',
 
     task: 'Main tasks/projects:',
-    sismo1: 'Creation of VFX, environment decoration and 2D asset integration optimizing game performance.',
-    sismo2: 'Development of custom tools and shaders in Unity (URP/HDRP).',
-    sismo3: 'Collaboration with artists and programmers to define technical workflows.',
-    sismo4: 'Production of various sprites: characters, animations and environment assets.',
-    sismo5: 'Task organization and project management with Jira and Slack.',
+    sismo1: 'Created VFX, environment dressing, and integrated 2D assets while optimizing in‑game performance.',
+    sismo2: 'Developed custom tools using C# and shaders using ShaderGraph.',
+    sismo3: 'Collaborated with artists and programmers to define and refine technical workflows.',
+    sismo4: 'Produced a wide range of sprites including characters, animations, and environment assets.',
+    sismo5: 'Organized tasks and coordinated production using Jira and Slack.',
 
     labCompany: 'User Experience Laboratory - UNRaf Tec',
     labPosition: 'Junior Technical Artist | Unity/Unreal Developer',
